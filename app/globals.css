@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.form-control {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-gray-100 focus:border-gray-100 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-200 focus:outline-none dark:focus:ring-gray-50 dark:focus:border-gray-100;
+}
+
+.error-message {
+  @apply text-red-800
+}
+.dashboard-card {
+  @apply shadow-sm bg-white pl-4 py-6 rounded-md w-full md:w-1/2 lg:w-1/4
+}
+
+.card {
+  @apply shadow-sm bg-white py-10 rounded-md px-6
+}
+
+.header-two {
+  @apply font-bold text-base
+}
